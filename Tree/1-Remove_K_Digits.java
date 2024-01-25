@@ -1,3 +1,6 @@
+// Question Name : Remove K Digits
+// Question URL : https://leetcode.com/problems/remove-k-digits/description/
+
 import java.util.*;
 class Solution {
     public String removeKdigits(String s, int k) {
