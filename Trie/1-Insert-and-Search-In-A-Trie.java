@@ -1,7 +1,6 @@
 // Question Name : Insert and Search In A Trie
 // Question URL : https://www.geeksforgeeks.org/problems/trie-insert-and-search0651/1
 
-import java.util.*;
 class Solution
 {
     static final int ALPHABET_SIZE = 26;
