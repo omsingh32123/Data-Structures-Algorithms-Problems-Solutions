@@ -11,7 +11,7 @@ class Solution
         for(int i=0;i<l;i++)
         {
             if(!set.contains(num[i]))
-            set.add(num[i]);
+            {set.add(num[i]);}
         }
         for(int i=0;i<set.size();i++)
         {
