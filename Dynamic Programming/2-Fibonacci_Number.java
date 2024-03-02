@@ -22,7 +22,7 @@ class Solution {
 }
 
 // Non-DP approach || Simple Recursion approach
-class Solution {
+class Solution2 {
     public int fib(int n) {
         if(n==0)
         return 0;
