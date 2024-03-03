@@ -1,6 +1,7 @@
 // Question Name : 3Sum
 // Question URL : https://leetcode.com/problems/3sum/description/
 
+// Approach 1
 import java.util.*;
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
@@ -30,5 +31,38 @@ class Solution {
             }
         }
         return l2;
+    }
+}
+
+
+// Approach 2 
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> outerList=new ArrayList<>();
+        List<Integer> numList=new ArrayList<>();
+        HashSet<Integer> usedList=new HashSet<>();
+        int n=nums.length;
+        for(int i=0;i<n;i++)
+        {
+            numList.add(nums[i]);
+        }
+        for(int i=0;i<n;i++)
+        {
+            for(int j=i+1;j<n;j++)
+            {
+                if( !(usedList.contains(nums[i]) && usedList.contains(nums[j]) && usedList.contains((nums[i]+nums[j])*-1)) && numList.contains((nums[i]+nums[j])*-1) ) // check usedList
+                {
+                    List<Integer> innerList=new ArrayList<>();
+                    innerList.add(nums[i]);
+                    innerList.add(nums[j]);
+                    innerList.add((nums[i]+nums[j])*-1);
+                    usedList.add(nums[i]);
+                    usedList.add(nums[j]);
+                    usedList.add((nums[i]+nums[j])*-1);
+                    outerList.add(innerList);
+                }
+            }
+        }
+        return outerList;
     }
 }
