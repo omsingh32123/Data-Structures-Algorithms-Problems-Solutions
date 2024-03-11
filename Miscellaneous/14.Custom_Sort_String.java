@@ -2,7 +2,6 @@
 // Question URL : https://leetcode.com/problems/custom-sort-string/
 
 import java.util.HashMap;
-
 class Solution {
     public String customSortString(String order, String s) {
         StringBuilder result = new StringBuilder();
