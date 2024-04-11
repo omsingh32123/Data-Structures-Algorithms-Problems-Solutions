@@ -1,9 +1,10 @@
 // Question Name : Reveal Cards In Increasing Order
 // Question URL : https://leetcode.com/problems/reveal-cards-in-increasing-order/
-
+ 
 import java.util.*;
 
 class Solution {
+    
     public int[] deckRevealedIncreasing(int[] deck) {
         Arrays.sort(deck); // Sort the deck in increasing order
         
