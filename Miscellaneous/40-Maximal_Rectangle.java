@@ -8,7 +8,7 @@ class Solution {
         
         int rows = matrix.length;
         int cols = matrix[0].length;
-        int[] heights = new int[cols + 1]; // Include an extra element for easier calculation
+        int[] heights = new int[cols + 1];
         int maxArea = 0;
         
         for (char[] row : matrix) {
@@ -16,8 +16,7 @@ class Solution {
                 heights[i] = (row[i] == '1') ? heights[i] + 1 : 0;
             }
             
-            // Calculate max area using histogram method
-            int n = heights.length; // Number of bars in the histogram
+            int n = heights.length;
             
             for (int i = 0; i < n; i++) {
                 for (int j = i, minHeight = Integer.MAX_VALUE; j < n; j++) {
