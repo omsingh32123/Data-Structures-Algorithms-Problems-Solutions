@@ -1,5 +1,5 @@
-// Question Name : Maximal Rectangle
-// Question URL : https://leetcode.com/problems/maximal-rectangle/
+// Question Name : Sum Root to Leaf Numbers
+// Question URL : https://leetcode.com/problems/sum-root-to-leaf-numbers/
 
 class Solution {
     public int sumNumbers(TreeNode root) {

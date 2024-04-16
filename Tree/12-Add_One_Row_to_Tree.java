@@ -1,5 +1,5 @@
-// Question Name : Maximal Rectangle
-// Question URL : https://leetcode.com/problems/maximal-rectangle/
+// Question Name : Add One Row to Tree
+// Question URL : https://leetcode.com/problems/add-one-row-to-tree/
 
 class Solution {
     public TreeNode add(TreeNode root, int val, int depth, int curr) {
