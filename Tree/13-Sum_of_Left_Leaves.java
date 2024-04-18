@@ -1,7 +1,6 @@
 // Question Name : Sum of Left Leaves
 // Question URL : https://leetcode.com/problems/sum-of-left-leaves/
 
-
 class Solution {
     static int count=0;
     public int sumOfLeftLeaves(TreeNode root) {
