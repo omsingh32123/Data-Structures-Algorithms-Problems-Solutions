@@ -1,10 +1,11 @@
 // Question Name : Sum of Left Leaves
 // Question URL : https://leetcode.com/problems/sum-of-left-leaves/
 
+
 class Solution {
     static int count=0;
     public int sumOfLeftLeaves(TreeNode root) {
-        if( root==null || (root.left==null && root.right==null) )
+        if( root==null|| (root.left==null && root.right==null) )
         return 0;
         count=0;
         sumOfLeftLeaves2(root,0);
