@@ -1,7 +1,6 @@
 // Question Name : Minimum Remove to Make Valid Parentheses
 // Question URL : https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 
-
 class Solution {
     public String minRemoveToMakeValid(String s) {
         String result;
