@@ -2,7 +2,6 @@
 // Question URL : https://leetcode.com/problems/number-of-wonderful-substrings/
 
 import java.util.*;
-
 class Solution {
     public long wonderfulSubstrings(String word) {
         Map<Integer, Integer> count = new HashMap<>();
