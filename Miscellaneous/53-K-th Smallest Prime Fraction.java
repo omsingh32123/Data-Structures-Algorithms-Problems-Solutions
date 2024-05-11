@@ -2,7 +2,6 @@
 // Question URL : https://leetcode.com/problems/k-th-smallest-prime-fraction/
 
 import java.util.PriorityQueue;
-
 class Solution {
     public int[] kthSmallestPrimeFraction(int[] arr, int k) {
         
