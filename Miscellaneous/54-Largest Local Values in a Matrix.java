@@ -1,7 +1,6 @@
 // Question Name : Largest Local Values in a Matrix
 // Question URL : https://leetcode.com/problems/largest-local-values-in-a-matrix/
 
-
 class Solution {
     public int[][] largestLocal(int[][] ar) {
         int maxLocal[][] = new int[ar.length-2][ar.length-2];
