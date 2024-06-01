@@ -7,6 +7,7 @@ class Solution {
         for (int num : nums) {
             total += num;
         }
+        
 
         long totalDiff = 0;
         long diff;
