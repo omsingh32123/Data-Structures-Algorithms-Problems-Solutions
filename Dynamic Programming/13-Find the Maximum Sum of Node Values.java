@@ -8,7 +8,6 @@ class Solution {
             total += num;
         }
         
-
         long totalDiff = 0;
         long diff;
         int positiveCount = 0;
