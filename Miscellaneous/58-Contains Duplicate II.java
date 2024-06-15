@@ -2,7 +2,6 @@
 // Question URL : https://leetcode.com/problems/contains-duplicate-ii/
 
 import java.util.HashSet;
-
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashSet<Integer> set = new HashSet<>();
